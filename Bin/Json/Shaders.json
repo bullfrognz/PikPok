@@ -1,0 +1,11 @@
+{
+    "_Comments" : "Shader technique input valid values are: POSITION3, POSITION2, NORMAL3, NORMAL2, TEXTURE_CORDS",
+
+    "Entries"   :   {   "ShapeShader" : {   "File"        : "ShapeShader.fx",
+                                            "Technique"   : { "Name"    : "Default",
+                                                              "Inputs"  : ["POSITION3", "NORMAL3", "TEXTURE_CORDS"]  
+                                                            },
+                                            "Variables"   : ["g_fColour"]  
+                                        }
+                    }
+}

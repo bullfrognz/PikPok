@@ -1,0 +1,686 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Defines">
+      <UniqueIdentifier>{c073d421-15c1-40ac-8fbe-fa94713ed594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{f913c4d7-b0d0-49cb-9fa2-49da9ae50e1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library">
+      <UniqueIdentifier>{737f401b-cf3b-4444-aa03-371e651caafa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{0d803c88-217b-4906-8da8-d1546ad36b15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Dictionary">
+      <UniqueIdentifier>{18499f1a-6562-4400-b435-1082072feb82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\List">
+      <UniqueIdentifier>{56c8e20c-da95-4a8a-b26f-4b8d65c55d6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Observer Pattern">
+      <UniqueIdentifier>{c45698c9-18b6-42a2-9de7-2097e4008748}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Observer Pattern\Event Args">
+      <UniqueIdentifier>{cab44307-26f2-4aa0-8cdf-0ffb3be100de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Math">
+      <UniqueIdentifier>{b5689269-812e-4f26-b20f-eefd66f93df2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Math\Colour">
+      <UniqueIdentifier>{e32b0f5c-7bd1-4846-811d-ed101080b1b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Utilities">
+      <UniqueIdentifier>{eeef8117-aba9-4a4b-8518-d154fe116082}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Math\Vector4">
+      <UniqueIdentifier>{84259f0a-67bd-43a4-963d-7063e058cf12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Math\Vector3">
+      <UniqueIdentifier>{dd4d79f4-674a-40b5-ae67-12b324169a4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Math\Vector2">
+      <UniqueIdentifier>{a08e605e-e2d7-429b-98cd-7d02cf256666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\UI">
+      <UniqueIdentifier>{20b74ff8-9991-433d-b037-ac0407d5533a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Utilities\Str Utilities">
+      <UniqueIdentifier>{7fefed27-8537-48c0-b108-bd665c67c129}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Math\Rect">
+      <UniqueIdentifier>{e0f1ef31-feae-4666-b49d-4076230b1c9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Math\Matrix">
+      <UniqueIdentifier>{603fa032-47dd-44cd-8e7e-2c1677bc5fc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Utilities\Math Utilities">
+      <UniqueIdentifier>{d7d66407-2054-49d9-928f-4cc387ee4425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Application">
+      <UniqueIdentifier>{72fc539c-c3f9-410e-b0be-8360855bc6a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Application\Win Application">
+      <UniqueIdentifier>{5d069374-daf9-4351-82cf-e2ff1370ca5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Clock">
+      <UniqueIdentifier>{53818477-919c-43c0-9899-ebdd556de4e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Clock\Win Clock">
+      <UniqueIdentifier>{2fb5a929-5f1e-4762-8f30-caa12a61687f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\File">
+      <UniqueIdentifier>{6a7c7d82-bef5-408a-82e5-1e82c27d40cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Input">
+      <UniqueIdentifier>{2db20f6b-5cc5-4443-9026-43c4286a4be5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Input\Keyboard">
+      <UniqueIdentifier>{461e8846-a893-41fd-8bfa-cdfbbb912a2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Input\Pointer">
+      <UniqueIdentifier>{493e0a03-63ca-446a-8cd7-6e4ee08fe2e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Rendering">
+      <UniqueIdentifier>{71917bc1-502c-4a8b-9793-2271966950d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Window">
+      <UniqueIdentifier>{1880aa36-e4b6-4e24-a81d-400f67cb0b32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Rendering\D10">
+      <UniqueIdentifier>{ffcee301-facc-41ce-9a1b-34b7aff652dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Rendering\D10\D10 Convert">
+      <UniqueIdentifier>{9c2ed17d-ebdd-4f8a-8d12-8668f9ab51ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Rendering\D10\D10 Index Buffer">
+      <UniqueIdentifier>{6c5f253a-4464-47cd-b67c-35385bbe9dd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Rendering\D10\D10 Texture">
+      <UniqueIdentifier>{46a55a0b-9a6c-41d6-8531-6bb63e04c3e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Rendering\D10\D10 Shader">
+      <UniqueIdentifier>{5ffbd63a-df7d-46b6-8f9c-9d9eacb8bb3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Rendering\D10\D10 Renderer">
+      <UniqueIdentifier>{951170ac-9f48-451b-9dc1-5217f96270e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Input\Keyboard\Win Keyboard">
+      <UniqueIdentifier>{095a248b-91e0-4a8e-8913-023f6c7c98a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Input\Pointer\Win Pointer">
+      <UniqueIdentifier>{1b399684-f631-456d-a32d-63c5b6d5fcfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Window\Win Window">
+      <UniqueIdentifier>{84c3d468-93d1-4a5f-bdae-76bffc013cfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Buffer">
+      <UniqueIdentifier>{ab6d9954-11c0-4134-a472-3294c6219c1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Buffer\Index Buffer">
+      <UniqueIdentifier>{727849ba-4578-4b4a-b8b0-ff51ecc15932}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Buffer\Vertex Buffer">
+      <UniqueIdentifier>{cdd861bb-492b-4350-8005-5cc9a90bd1f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Light">
+      <UniqueIdentifier>{b6e845ab-c845-4a37-80ef-c1e7ffc759af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Shader">
+      <UniqueIdentifier>{836a4860-4f65-4a3f-9616-52d13dab846e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Texture">
+      <UniqueIdentifier>{51b62789-4826-46b5-bab7-071e864ca536}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Math\Matrix\View Matrix">
+      <UniqueIdentifier>{7922f47c-2ee8-4c9a-8f08-30285d28ff42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Math\Matrix\World Matrix">
+      <UniqueIdentifier>{718e30cc-65f5-4d86-bc29-b69679b26d8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Math\Matrix\Projection Matrix">
+      <UniqueIdentifier>{2f6610b5-cea7-488d-9e2a-17da5e5728b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Camera">
+      <UniqueIdentifier>{5c0312fd-d2d8-4bc1-9476-c82604cf5a02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Camera\FP Camera">
+      <UniqueIdentifier>{0833e9ae-2c8b-46a2-8c49-bd301787d194}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\AA Box">
+      <UniqueIdentifier>{e7c64669-7fda-4eb6-8592-119f7ddd2d27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Entity">
+      <UniqueIdentifier>{a2780e75-fd0e-411e-8275-ae0d1868b185}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\UI\Ui Element">
+      <UniqueIdentifier>{7f92d861-623a-4380-8fee-590af81e086a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Math\Quaternion">
+      <UniqueIdentifier>{e09ded5b-ae02-4466-9342-66fc3b93db86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Debug">
+      <UniqueIdentifier>{6dbdcbe0-1105-4b69-8717-0f21312eb2ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Shapes Scene">
+      <UniqueIdentifier>{ea360906-3f3d-47ec-beb5-ad7dd07a7ed6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Mesh">
+      <UniqueIdentifier>{7bbc80c5-f23c-4f68-a0b5-f153fddba0ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Material">
+      <UniqueIdentifier>{27ac76c6-7c15-4a92-931b-5fe7c45da2fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Renderable">
+      <UniqueIdentifier>{db594799-d8b7-4c8e-a8fa-85557842403d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Processable">
+      <UniqueIdentifier>{c596b457-e00e-4d9f-b4b2-872d1b3d5a78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\File System">
+      <UniqueIdentifier>{5a4f5311-7485-485b-bfbf-589582d1ebfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\File\Std File">
+      <UniqueIdentifier>{6f0d0fc6-59ef-47cf-a9e1-ff1b2118fe18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\File System\Std File System">
+      <UniqueIdentifier>{64b48495-6ca4-4a51-a0fb-f16eef4381c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{7c6fa51f-562e-4e30-8cf2-13922c7bb435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{5779d144-f6f4-48ad-a5a4-1628b9b481bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Loaders">
+      <UniqueIdentifier>{4c1972e6-f525-42fb-9934-5f295e68adb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Loaders\Model Loader">
+      <UniqueIdentifier>{fe1fd149-843c-4979-a0a3-b44295a4e345}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Parsers">
+      <UniqueIdentifier>{fcb45609-d0f0-4e04-8b1c-bb124c1f9aca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Parsers\Json Parser">
+      <UniqueIdentifier>{457c6c96-6a50-4918-b147-2e93301e2d1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Parsers\Json Parser\Plugin">
+      <UniqueIdentifier>{14b3ad95-f7c2-46f7-a6a8-cd35f9b7ec8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Parsers\Hlsl Parser">
+      <UniqueIdentifier>{e018565c-275d-49cc-9426-c844ad69fa1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Parsers\Hlsl Parser\M4 Hlsl Parser">
+      <UniqueIdentifier>{48ff3b00-2ddd-4a17-a1ce-9d561206cb0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Parsers\Hlsl Parser\M4 Hlsl Parser\Engine">
+      <UniqueIdentifier>{b2fbe79d-f6e0-4998-9444-658cc49d84c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Rendering\D10\D10 Hlsl Loader">
+      <UniqueIdentifier>{b4a562f6-9746-4e6c-8fb9-25ee6861d602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library\Loaders\Shader Loader">
+      <UniqueIdentifier>{a3e9e091-97d6-4e78-866d-5acaac4191a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Rendering\D10\D10 Vertex Buffer">
+      <UniqueIdentifier>{10b15f23-ce92-40c7-a0b5-52e2857ed8b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Shapes Scene\Shape">
+      <UniqueIdentifier>{975b6ed5-1776-42b2-85ed-8e8c2975784f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\Shapes Scene\Path Mover">
+      <UniqueIdentifier>{5f935e73-e1bc-4add-9d54-43e849523761}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Rendering\D10\D10 Ui Text">
+      <UniqueIdentifier>{75dd082a-6cfd-4dbb-afde-443539cff5ad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Library\List.h">
+      <Filter>Library\List</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Observer.h">
+      <Filter>Library\Observer Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Subject.h">
+      <Filter>Library\Observer Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\EventArgs.h">
+      <Filter>Library\Observer Pattern\Event Args</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Dictionary.h">
+      <Filter>Library\Dictionary</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Colour.h">
+      <Filter>Library\Math\Colour</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Vector4.h">
+      <Filter>Library\Math\Vector4</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Vector3.h">
+      <Filter>Library\Math\Vector3</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Vector2.h">
+      <Filter>Library\Math\Vector2</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Rect.h">
+      <Filter>Library\Math\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Matrix.h">
+      <Filter>Library\Math\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Application.h">
+      <Filter>Framework\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Win\WinApplication.h">
+      <Filter>Framework\Application\Win Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Clock.h">
+      <Filter>Framework\Clock</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Win\WinClock.h">
+      <Filter>Framework\Clock\Win Clock</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\File.h">
+      <Filter>Framework\File</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Keyboard.h">
+      <Filter>Framework\Input\Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Pointer.h">
+      <Filter>Framework\Input\Pointer</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Renderer.h">
+      <Filter>Framework\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Window.h">
+      <Filter>Framework\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Win\WinKeyboard.h">
+      <Filter>Framework\Input\Keyboard\Win Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Win\WinPointer.h">
+      <Filter>Framework\Input\Pointer\Win Pointer</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Win\WinWindow.h">
+      <Filter>Framework\Window\Win Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Scene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\ViewMatrix.h">
+      <Filter>Library\Math\Matrix\View Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\WorldMatrix.h">
+      <Filter>Library\Math\Matrix\World Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\ProjectionMatrix.h">
+      <Filter>Library\Math\Matrix\Projection Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines\Types.h">
+      <Filter>Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines\Macros.h">
+      <Filter>Defines</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\D10\D10Renderer.h">
+      <Filter>Framework\Rendering\D10\D10 Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\D10\D10UiText.h">
+      <Filter>Framework\Rendering\D10\D10 Ui Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\UiText.h">
+      <Filter>Library\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\UiElement.h">
+      <Filter>Library\UI\Ui Element</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\D10\D10Shader.h">
+      <Filter>Framework\Rendering\D10\D10 Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\D10\D10Texture.h">
+      <Filter>Framework\Rendering\D10\D10 Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Quaternion.h">
+      <Filter>Library\Math\Quaternion</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Light.h">
+      <Filter>Library\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Entity.h">
+      <Filter>Library\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Camera.h">
+      <Filter>Library\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\AABox.h">
+      <Filter>Library\AA Box</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Shader.h">
+      <Filter>Library\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\VertexBuffer.h">
+      <Filter>Library\Buffer\Vertex Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\IndexBuffer.h">
+      <Filter>Library\Buffer\Index Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Buffer.h">
+      <Filter>Library\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Texture.h">
+      <Filter>Library\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\StrUtilities.h">
+      <Filter>Library\Utilities\Str Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\MathUtilities.h">
+      <Filter>Library\Utilities\Math Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\D10\D10VertexBuffer.h">
+      <Filter>Framework\Rendering\D10\D10 Vertex Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\D10\D10IndexBuffer.h">
+      <Filter>Framework\Rendering\D10\D10 Index Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\D10\D10Convert.h">
+      <Filter>Framework\Rendering\D10\D10 Convert</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Debug.h">
+      <Filter>Framework\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Shapes\ShapesScene.h">
+      <Filter>Scenes\Shapes Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Shapes\Shape.h">
+      <Filter>Scenes\Shapes Scene\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Mesh.h">
+      <Filter>Library\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\ModelLoader.h">
+      <Filter>Library\Loaders\Model Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Material.h">
+      <Filter>Library\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Renderable.h">
+      <Filter>Library\Renderable</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\Processable.h">
+      <Filter>Library\Processable</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\JsonParser.h">
+      <Filter>Library\Parsers\Json Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Plugins\Json_Parser\JSON_parser.h">
+      <Filter>Library\Parsers\Json Parser\Plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Std\StdFile.h">
+      <Filter>Framework\File\Std File</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\FileSystem.h">
+      <Filter>Framework\File System</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Std\StdFileSystem.h">
+      <Filter>Framework\File System\Std File System</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\resource.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\HlslParser.h">
+      <Filter>Library\Parsers\Hlsl Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Plugins\HLSL Parser\Engine\Assert.h">
+      <Filter>Library\Parsers\Hlsl Parser\M4 Hlsl Parser\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Plugins\HLSL Parser\Engine\Log.h">
+      <Filter>Library\Parsers\Hlsl Parser\M4 Hlsl Parser\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Plugins\HLSL Parser\Engine\String.h">
+      <Filter>Library\Parsers\Hlsl Parser\M4 Hlsl Parser\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Plugins\HLSL Parser\Engine\StringPool.h">
+      <Filter>Library\Parsers\Hlsl Parser\M4 Hlsl Parser\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Plugins\HLSL Parser\Engine\Allocator.h">
+      <Filter>Library\Parsers\Hlsl Parser\M4 Hlsl Parser\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Plugins\HLSL Parser\Engine\Array.h">
+      <Filter>Library\Parsers\Hlsl Parser\M4 Hlsl Parser\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Plugins\HLSL Parser\M4HLSLTree.h">
+      <Filter>Library\Parsers\Hlsl Parser\M4 Hlsl Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Plugins\HLSL Parser\M4HLSLTokenizer.h">
+      <Filter>Library\Parsers\Hlsl Parser\M4 Hlsl Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Plugins\HLSL Parser\M4HLSLParser.h">
+      <Filter>Library\Parsers\Hlsl Parser\M4 Hlsl Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Plugins\HLSL Parser\M4HLSLGenerator.h">
+      <Filter>Library\Parsers\Hlsl Parser\M4 Hlsl Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Plugins\HLSL Parser\M4GLSLGenerator.h">
+      <Filter>Library\Parsers\Hlsl Parser\M4 Hlsl Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Plugins\HLSL Parser\M4CodeWriter.h">
+      <Filter>Library\Parsers\Hlsl Parser\M4 Hlsl Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Library\ShaderLoader.h">
+      <Filter>Library\Loaders\Shader Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Scenes\Shapes\PathMover.h">
+      <Filter>Scenes\Shapes Scene\Path Mover</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Library\EventArgs.cpp">
+      <Filter>Library\Observer Pattern\Event Args</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Dictionary.cpp">
+      <Filter>Library\Dictionary</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Colour.cpp">
+      <Filter>Library\Math\Colour</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Vector4.cpp">
+      <Filter>Library\Math\Vector4</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Vector3.cpp">
+      <Filter>Library\Math\Vector3</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Vector2.cpp">
+      <Filter>Library\Math\Vector2</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Rect.cpp">
+      <Filter>Library\Math\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Application.cpp">
+      <Filter>Framework\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Win\WinApplication.cpp">
+      <Filter>Framework\Application\Win Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Win\WinKeyboard.cpp">
+      <Filter>Framework\Input\Keyboard\Win Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Win\WinPointer.cpp">
+      <Filter>Framework\Input\Pointer\Win Pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Win\WinWindow.cpp">
+      <Filter>Framework\Window\Win Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\ViewMatrix.cpp">
+      <Filter>Library\Math\Matrix\View Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\WorldMatrix.cpp">
+      <Filter>Library\Math\Matrix\World Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\ProjectionMatrix.cpp">
+      <Filter>Library\Math\Matrix\Projection Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Win\WinClock.cpp">
+      <Filter>Framework\Clock\Win Clock</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\D10\D10Renderer.cpp">
+      <Filter>Framework\Rendering\D10\D10 Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\D10\D10UiText.cpp">
+      <Filter>Framework\Rendering\D10\D10 Ui Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\UiElement.cpp">
+      <Filter>Library\UI\Ui Element</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\D10\D10Shader.cpp">
+      <Filter>Framework\Rendering\D10\D10 Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\D10\D10Texture.cpp">
+      <Filter>Framework\Rendering\D10\D10 Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Matrix.cpp">
+      <Filter>Library\Math\Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Quaternion.cpp">
+      <Filter>Library\Math\Quaternion</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Light.cpp">
+      <Filter>Library\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Entity.cpp">
+      <Filter>Library\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Camera.cpp">
+      <Filter>Library\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\AABox.cpp">
+      <Filter>Library\AA Box</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\IndexBuffer.cpp">
+      <Filter>Library\Buffer\Index Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\StrUtilities.cpp">
+      <Filter>Library\Utilities\Str Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\MathUtilities.cpp">
+      <Filter>Library\Utilities\Math Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\VertexBuffer.cpp">
+      <Filter>Library\Buffer\Vertex Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\D10\D10VertexBuffer.cpp">
+      <Filter>Framework\Rendering\D10\D10 Vertex Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\D10\D10IndexBuffer.cpp">
+      <Filter>Framework\Rendering\D10\D10 Index Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\D10\D10Convert.cpp">
+      <Filter>Framework\Rendering\D10\D10 Convert</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Debug.cpp">
+      <Filter>Framework\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\Shapes\ShapesScene.cpp">
+      <Filter>Scenes\Shapes Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\Shapes\Shape.cpp">
+      <Filter>Scenes\Shapes Scene\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Mesh.cpp">
+      <Filter>Library\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\ModelLoader.cpp">
+      <Filter>Library\Loaders\Model Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp" />
+    <ClCompile Include="Library\Renderable.cpp">
+      <Filter>Library\Renderable</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\Processable.cpp">
+      <Filter>Library\Processable</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\JsonParser.cpp">
+      <Filter>Library\Parsers\Json Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="Plugins\Json_Parser\JSON_parser.c">
+      <Filter>Library\Parsers\Json Parser\Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Std\StdFile.cpp">
+      <Filter>Framework\File\Std File</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Std\StdFileSystem.cpp">
+      <Filter>Framework\File System\Std File System</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\HlslParser.cpp">
+      <Filter>Library\Parsers\Hlsl Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="Plugins\HLSL Parser\Engine\Log.cpp">
+      <Filter>Library\Parsers\Hlsl Parser\M4 Hlsl Parser\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Plugins\HLSL Parser\Engine\String.cpp">
+      <Filter>Library\Parsers\Hlsl Parser\M4 Hlsl Parser\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Plugins\HLSL Parser\Engine\StringPool.cpp">
+      <Filter>Library\Parsers\Hlsl Parser\M4 Hlsl Parser\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Plugins\HLSL Parser\M4HLSLTree.cpp">
+      <Filter>Library\Parsers\Hlsl Parser\M4 Hlsl Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="Plugins\HLSL Parser\M4HLSLTokenizer.cpp">
+      <Filter>Library\Parsers\Hlsl Parser\M4 Hlsl Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="Plugins\HLSL Parser\M4HLSLParser.cpp">
+      <Filter>Library\Parsers\Hlsl Parser\M4 Hlsl Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="Plugins\HLSL Parser\M4HLSLGenerator.cpp">
+      <Filter>Library\Parsers\Hlsl Parser\M4 Hlsl Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="Plugins\HLSL Parser\M4GLSLGenerator.cpp">
+      <Filter>Library\Parsers\Hlsl Parser\M4 Hlsl Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="Plugins\HLSL Parser\M4CodeWriter.cpp">
+      <Filter>Library\Parsers\Hlsl Parser\M4 Hlsl Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="Library\ShaderLoader.cpp">
+      <Filter>Library\Loaders\Shader Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Scenes\Shapes\PathMover.cpp">
+      <Filter>Scenes\Shapes Scene\Path Mover</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Framework\Win\WinClock.inl">
+      <Filter>Framework\Clock\Win Clock</Filter>
+    </None>
+    <None Include="Library\EventArgs.inl">
+      <Filter>Library\Observer Pattern\Event Args</Filter>
+    </None>
+    <None Include="Library\Dictionary.inl">
+      <Filter>Library\Dictionary</Filter>
+    </None>
+    <None Include="Resources\WindowIcon.ico">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="Resources\AppIcon.ico">
+      <Filter>Resources</Filter>
+    </None>
+    <None Include="..\Bin\Shaders\Texturing.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Bin\Shaders\Transform.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Bin\Shaders\Lighting.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Bin\Shaders\ShapeShader.fx">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources\PikPok Shapes.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

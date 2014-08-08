@@ -1,0 +1,17 @@
+{
+	"_comment"	: "The model's shader array index is relative to the model's material index",
+	
+	"Directory" : "Assets/Models",
+	
+	"Entries"	  : {	"Triangle"	: {	"File" 		: "Triangle.obj",
+                                  "Shaders" : ["ShapeShader"] 	},
+									
+                  "Circle" 	  : {	"File" 		: "Circle.obj",
+                                  "Shaders"	: ["ShapeShader"] 	},
+									
+                  "Square"	  : {	"File" 		: "Square.obj",
+                                  "Shaders"	: ["ShapeShader"] 	},
+									
+                  "Hexagon"	  : {	"File" 		: "Hexagon.obj",
+                                  "Shaders"	: ["ShapeShader"] }	}
+}

@@ -1,0 +1,33 @@
+{
+	"_comment"	    : "The model's shader array index is relative to the model's material index",
+	"_patterns_are" : "PATTERN_UP_DOWN = 1, PATTERN_LEFT_RIGHT = 2, PATTERN_CIRCULAR = 3, PATTERN_BOX = 4",
+	
+	"Shapes"	: [	{	"Model"         : "Triangle",
+                  "MovePattern"	  : 1,
+                  "Dimension"		  : 2.0,
+                  "MoveSpeed"		  : 8.0,
+                  "Colour"		    : [1.0, 0.0, 0.0],
+                  "StartPosition"	: [-5.0, 0.0, 5.0]		},
+                  
+                {	"Model"         : "Circle",
+                  "MovePattern"	  : 3,
+                  "Dimension"		  : 2.0,
+                  "MoveSpeed"		  : 4.0,
+                  "Colour"		    : [0.0, 1.0, 0.0],
+                  "StartPosition"	: [5.0, 0.0, 5.0]		},
+                  
+                {	"Model"         : "Square",
+                  "MovePattern"	  : 4,
+                  "Dimension"		  : 2.0,
+                  "MoveSpeed"		  : 5.0,
+                  "Colour"		    : [1.0, 0.0, 1.0],
+                  "StartPosition"	: [-5.0, 0.0, -5.0]		},
+                  
+                {	"Model"         : "Hexagon",
+                  "MovePattern"	  : 2,
+                  "Dimension"		  : 2.0,
+                  "MoveSpeed"		  : 6.0,
+                  "Colour"		    : [1.0, 1.0, 0.0],
+                  "StartPosition"	: [5.0, 0.0, -5.0]		} ]
+
+}
