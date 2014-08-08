@@ -17,6 +17,7 @@
 #include "Defines/Types.h"
 
 // Library Includes
+#include <string>
 
 // Prototypes
 
@@ -50,14 +51,13 @@ public:
 	virtual void Flush() = 0;
 	virtual void Close() = 0;
 
-	virtual bool Read(char* _cpBuffer, uint _uiNumBytes)	= 0;
+	virtual bool Read(std::string& _rContents)				= 0;
 	virtual bool Write(c_char* _kcpData)					= 0;
 	virtual bool Write(c_char* _kcpData, uint _uiNumBytes)	= 0;
 
 	virtual void ReadPointer(uint _uiByteOffset)	= 0;
 	virtual void WritePointer(uint _uiByteOffset)	= 0;
 
-	virtual uint Size()			= 0;
 	virtual uint ReadPointer()	= 0;
 	virtual uint WritePointer()	= 0;
 

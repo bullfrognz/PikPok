@@ -38,7 +38,7 @@ public:
 	virtual void Flush();
 	virtual void Close();
 
-	virtual bool Read(char* _cpBuffer, uint _uiNumBytes);
+	virtual bool Read(std::string& _rContents);
 	virtual bool Write(c_char* _kcpData);
 	virtual bool Write(c_char* _kcpData, uint _uiNumBytes);
 
@@ -47,7 +47,6 @@ public:
 
 	virtual uint ReadPointer();
 	virtual uint WritePointer();
-	virtual uint Size();
 
 protected:
 

@@ -43,7 +43,6 @@
     <ClInclude Include="Library\Dictionary.h" />
     <ClInclude Include="Library\Entity.h" />
     <ClInclude Include="Library\EventArgs.h" />
-    <ClInclude Include="Library\HlslParser.h" />
     <ClInclude Include="Library\IndexBuffer.h" />
     <ClInclude Include="Library\JsonParser.h" />
     <ClInclude Include="Library\Light.h" />
@@ -114,7 +113,6 @@
     <ClCompile Include="Library\Dictionary.cpp" />
     <ClCompile Include="Library\Entity.cpp" />
     <ClCompile Include="Library\EventArgs.cpp" />
-    <ClCompile Include="Library\HlslParser.cpp" />
     <ClCompile Include="Library\IndexBuffer.cpp" />
     <ClCompile Include="Library\JsonParser.cpp" />
     <ClCompile Include="Library\Light.cpp" />

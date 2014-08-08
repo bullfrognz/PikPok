@@ -114,14 +114,9 @@ bool CJsonParser::ParseFile(c_char* _kcpFilePath)
 	}
 	else
 	{
-		// Create read buffer
-		uint uiFileSize = pJsonFile->Size();
-
-		char* cpFileContents = new char[uiFileSize];
-		FW_MEMZERO(cpFileContents, uiFileSize);
-
 		// Read json file
-		bool bFileRead = pJsonFile->Read(cpFileContents, uiFileSize);
+		std::string FileContents;
+		bool bFileRead = pJsonFile->Read(FileContents);
 
 		if (!bFileRead)
 		{
@@ -129,10 +124,8 @@ bool CJsonParser::ParseFile(c_char* _kcpFilePath)
 		}
 		else
 		{
-			bReturn = ParseString(cpFileContents);
+			bReturn = ParseString(FileContents.c_str());
 		}
-
-		FW_ADELETE(cpFileContents);
 	}
 
 	FW_DELETE(pJsonFile);

@@ -12,6 +12,7 @@
 #include "Framework/Debug.h"
 
 // Library Includes
+#include <sstream>
 
 // Static Initialisers
 
@@ -72,17 +73,17 @@ void CStdFile::Close()
 	m_FileStream.close();
 }
 
-bool CStdFile::Read(char* _cpBuffer, uint _uiNumBytes)
+bool CStdFile::Read(std::string& _rContents)
 {
 	if (!m_FileStream.is_open())
-	{
-		DEBUG_ERROR("Cannot read file. No file is opened.");
 		return (false);
-	}
 
-	m_FileStream.read(_cpBuffer, _uiNumBytes);
+	std::stringstream buffer;
+	buffer << m_FileStream.rdbuf();
 
-	return (!m_FileStream.bad());
+	_rContents = buffer.str();
+
+	return (true);
 }
 
 bool CStdFile::Write(c_char* _kcpData)
@@ -154,26 +155,4 @@ uint CStdFile::WritePointer()
 	}
 
 	return ((uint)m_FileStream.tellp());
-}
-
-uint CStdFile::Size()
-{
-	if (!m_FileStream.is_open())
-	{
-		DEBUG_ERROR("Cannot get file size. No file is opened.");
-		return (0);
-	}
-
-	// Backup read position
-	uint uiReadPosition = ReadPointer();
-
-	// Move read pointer to end of file and get file length
-	m_FileStream.seekg(0, m_FileStream.end);
-
-	uint uiLength = ReadPointer();
-
-	// Restore read position
-	ReadPointer(uiReadPosition);
-
-	return (uiLength);
 }

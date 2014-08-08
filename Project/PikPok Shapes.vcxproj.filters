@@ -429,9 +429,6 @@
     <ClInclude Include="Resources\resource.h">
       <Filter>Resources</Filter>
     </ClInclude>
-    <ClInclude Include="Library\HlslParser.h">
-      <Filter>Library\Parsers\Hlsl Parser</Filter>
-    </ClInclude>
     <ClInclude Include="Plugins\HLSL Parser\Engine\Assert.h">
       <Filter>Library\Parsers\Hlsl Parser\M4 Hlsl Parser\Engine</Filter>
     </ClInclude>
@@ -611,9 +608,6 @@
     </ClCompile>
     <ClCompile Include="Framework\Std\StdFileSystem.cpp">
       <Filter>Framework\File System\Std File System</Filter>
-    </ClCompile>
-    <ClCompile Include="Library\HlslParser.cpp">
-      <Filter>Library\Parsers\Hlsl Parser</Filter>
     </ClCompile>
     <ClCompile Include="Plugins\HLSL Parser\Engine\Log.cpp">
       <Filter>Library\Parsers\Hlsl Parser\M4 Hlsl Parser\Engine</Filter>

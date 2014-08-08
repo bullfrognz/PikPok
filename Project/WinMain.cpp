@@ -45,7 +45,7 @@ int WINAPI WinMain(HINSTANCE _hInstance, HINSTANCE _hPrevInstance, LPSTR _1pCmdL
 	asctime_s(cFormatBuffer, &tTimeInfo);
 
 	// Insert padding if previous entries exist
-	if (DebugLogFile.Size() > 0)
+	if (DebugLogFile.WritePointer() > 0)
 		DebugLogFile.Write("\n\n");
 	
 	DebugLogFile.Write(cFormatBuffer);

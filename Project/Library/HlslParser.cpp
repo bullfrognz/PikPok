@@ -38,24 +38,18 @@ bool CHlslParser::Parse(c_char* _kcpFilename, c_char* _kcpShaderFilePath)
 
 	VALIDATE( pHlslFile->Open(_kcpShaderFilePath, IFile::OPEN_ATTRIBRUTE_READ) );
 
-	uint uiFileSize = pHlslFile->Size() + 1;
-
-	char* cFileContents = new char[uiFileSize];
-	FW_MEMZERO(cFileContents, uiFileSize);
-
-	pHlslFile->Read(cFileContents, uiFileSize);
+	std::string FileContents;
+	pHlslFile->Read(FileContents);
 
 	// Parse input file
 	M4::Allocator Allocator;
-	M4::HLSLParser Parser(&Allocator, _kcpFilename, cFileContents, uiFileSize);
+	M4::HLSLParser Parser(&Allocator, _kcpFilename, FileContents, FileContents.length());
 	M4::HLSLTree Tree(&Allocator);
 
 	if (!Parser.Parse(&Tree))
 	{
 		DEBUG_ERROR("Parsing failed, aborting");
 	}
-
-	FW_ADELETE(cFileContents);
 
 	return (true);
 }
