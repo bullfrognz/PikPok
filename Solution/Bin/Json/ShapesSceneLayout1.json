@@ -1,6 +1,7 @@
 {
 	"_comment"	    : "The model's shader array index is relative to the model's material index",
 	"_patterns_are" : "PATTERN_UP_DOWN = 1, PATTERN_LEFT_RIGHT = 2, PATTERN_CIRCULAR = 3, PATTERN_BOX = 4",
+	"_models"       : "Models are defined within the Models.json file",
 	
 	"Shapes"	: [	{	"Model"         : "Triangle",
                   "MovePattern"	  : 1,
